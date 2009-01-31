@@ -20,7 +20,4 @@ if ENV['AMAZON_ACCESS_KEY_ID'] && ENV['AMAZON_SECRET_ACCESS_KEY']
   @ec2 = EC2::Base.new(opts)
 end
 
-puts "Current Options:"
-pp opts
-
 include EC2
