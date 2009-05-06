@@ -1,3 +1,6 @@
+=== 0.3.8 2009-04-16
+ * Applied patch, fixing an issue with EU Signature version 2 creation (delano).
+
 === 0.3.7 2009-03-09
  * Applied patch, with updated tests to fix issue with base64 encoded user data (rsanheim).
 
